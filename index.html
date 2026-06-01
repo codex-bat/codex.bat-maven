@@ -3,21 +3,22 @@
 
 <head>
     <meta charset="utf-8">
-    <meta property="og:title" content="Vesper — Maven Repository">
-    <meta property="og:description" content="Vesper — a lightweight Java library by Codex.bat. All rights reserved.">
+    <meta property="og:title" content="Vesper — Minecraft Library">
+    <meta property="og:description"
+        content="AHHHHHHHHHHHH, I HATE WRITING DOCS. IT'S 4 AM. F*CK THIS. F*CK EVERYTHING. Vesper.">
     <meta property="og:image" content="https://codex-bat.github.io/assets/logo.png">
     <meta property="og:url" content="https://maven.codexbat.dev">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Vesper — Maven Repository">
-    <meta name="twitter:description" content="Vesper: lightweight Java library by Codex.bat.">
+    <meta name="twitter:title" content="Vesper — Minecraft Library">
+    <meta name="twitter:description" content="Custom glints, datagen, mixins, plushies. All rights reserved. F*CK.">
     <meta name="twitter:image" content="https://codex-bat.github.io/assets/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Vesper — Maven Repository</title>
+    <title>Vesper — Minecraft Library</title>
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-    <meta name="description" content="Vesper — lightweight Java library by Codex.bat. Maven repository and quickstart.">
+    <meta name="description" content="Vesper — my messy Minecraft library. All rights reserved.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500&display=swap"
@@ -63,7 +64,6 @@
             color: #20ff9f;
         }
 
-        /* ---- LAYOUT ---- */
         .page {
             display: flex;
             flex-direction: column;
@@ -78,7 +78,6 @@
             padding: 2rem 2rem 4rem;
         }
 
-        /* ---- TOP BAR ---- */
         .topbar {
             background-color: rgba(5, 12, 14, 0.95);
             backdrop-filter: blur(8px);
@@ -137,7 +136,6 @@
             width: 100%;
         }
 
-        /* ---- HERO ---- */
         .hero {
             margin-top: 3rem;
             margin-bottom: 4rem;
@@ -200,7 +198,6 @@
             color: var(--white);
         }
 
-        /* ---- SECTION TITLES ---- */
         .section-title {
             font-size: 2rem;
             font-weight: 600;
@@ -208,9 +205,9 @@
             margin-bottom: 2rem;
             border-left: 4px solid var(--emerald);
             padding-left: 1rem;
+            text-transform: lowercase;
         }
 
-        /* ---- FEATURES GRID ---- */
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -242,6 +239,7 @@
             font-weight: 600;
             color: var(--white);
             margin-bottom: 0.5rem;
+            text-transform: lowercase;
         }
 
         .feature-card p {
@@ -250,7 +248,6 @@
             line-height: 1.6;
         }
 
-        /* ---- CODE SECTION ---- */
         .code-section {
             margin-bottom: 3rem;
         }
@@ -291,7 +288,6 @@
             color: var(--emerald);
         }
 
-        /* ---- FOOTER ---- */
         .footer {
             background: var(--evergreen);
             border-top: 1px solid var(--emerald-depths);
@@ -333,7 +329,6 @@
             text-decoration: none;
         }
 
-        /* ---- RESPONSIVE ---- */
         @media (max-width: 768px) {
             .topbar {
                 padding: 0.75rem 1.5rem;
@@ -359,62 +354,57 @@
 
 <body>
     <div class="page">
-        <!-- Top Navigation -->
         <header class="topbar">
-            <div class="logo">Vesper<span>.</span></div>
+            <div class="logo">vesper<span>.</span></div>
             <nav class="nav-links">
-                <a href="#features">Features</a>
-                <a href="#quickstart">Quick Start</a>
-                <a href="/docs">Docs</a>
-                <a href="/changelog">Changelog</a>
+                <a href="#features">features</a>
+                <a href="#quickstart">get it</a>
+                <a href="/docs">docs?</a>
+                <a href="/changelog">changelog</a>
             </nav>
         </header>
 
-        <!-- Main Content -->
         <main class="main-content">
-            <!-- Hero -->
             <section class="hero">
-                <h1>Build with <span class="accent">Vesper</span></h1>
-                <p>A lightweight configuration and event bus library for Java. Zero dependencies, modern design, and a clean API.</p>
+                <h1>vesper<span class="accent">.</span></h1>
+                <p>a minecraft library held together by mixins, prayers, and too many late nights. custom glints, datagen, plushies — the whole mess. i made this. now you get to deal with it.</p>
                 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                    <a href="#quickstart" class="btn">Get Started</a>
-                    <a href="/docs" class="btn btn-outline">Read the Docs</a>
+                    <a href="#quickstart" class="btn">add dependency (help)</a>
+                    <a href="/docs" class="btn btn-outline">docs (eventually)</a>
                 </div>
             </section>
 
-            <!-- Features -->
-            <h2 class="section-title" id="features">Features</h2>
+            <h2 class="section-title" id="features">what the hell is in here</h2>
             <div class="features-grid">
                 <div class="feature-card">
-                    <i class="fas fa-cog"></i>
-                    <h3>Configuration</h3>
-                    <p>Parse YAML and JSON with strong typing and automatic reloading. No more boilerplate.</p>
+                    <i class="fas fa-gem"></i>
+                    <h3>custom glint registries</h3>
+                    <p>because mojang's default glints are boring. full registry for your own glint effects. utils coming soon™ (i swear i'll finish them... eventually).</p>
                 </div>
                 <div class="feature-card">
-                    <i class="fas fa-bolt"></i>
-                    <h3>Event Bus</h3>
-                    <p>Annotation‑driven events with priority and cancellation support. Built for speed.</p>
+                    <i class="fas fa-code"></i>
+                    <h3>datagen api</h3>
+                    <p>hook into my datagen pipeline. it's held together with duct tape and spite, but it works. maybe. no refunds.</p>
                 </div>
                 <div class="feature-card">
-                    <i class="fas fa-sync-alt"></i>
-                    <h3>Hotswap</h3>
-                    <p>Change configs on the fly without restarting your application.</p>
+                    <i class="fas fa-cogs"></i>
+                    <h3>so many mixins</h3>
+                    <p>i have no idea how they don't collide. an unholy amount of mixins doing things behind your back. if something breaks, that's on you.</p>
                 </div>
                 <div class="feature-card">
-                    <i class="fas fa-puzzle-piece"></i>
-                    <h3>Mod‑ready</h3>
-                    <p>Works seamlessly with Minecraft mods, Discord bots, and standalone projects.</p>
+                    <i class="fas fa-cube"></i>
+                    <h3>plushy model setup</h3>
+                    <p>a whole registry and system for my custom plushy model. just place it down. more plushies coming maybe, if i don't abandon this project halfway through.</p>
                 </div>
             </div>
 
-            <!-- Quick Start -->
-            <h2 class="section-title" id="quickstart">Quick Start</h2>
+            <h2 class="section-title" id="quickstart">get it (please)</h2>
             <p style="margin-bottom: 1.5rem; color: var(--grey-400);">
-                Add the Maven repository and the dependency to your project.
+                add the maven repository and the dependency. you know the drill. i'm not explaining this.
             </p>
 
             <div class="code-section">
-                <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--white);">Maven</h3>
+                <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--white);">maven</h3>
                 <div class="code-block">
 <span class="comment">&lt;!-- pom.xml --&gt;</span>
 <span class="keyword">&lt;repository&gt;</span>
@@ -424,12 +414,12 @@
 
 <span class="keyword">&lt;dependency&gt;</span>
     &lt;groupId&gt;dev.codexbat&lt;/groupId&gt;
-    &lt;artifactId&gt;vesper-core&lt;/artifactId&gt;
+    &lt;artifactId&gt;vesper-mc&lt;/artifactId&gt;
     &lt;version&gt;1.0.0&lt;/version&gt;
 &lt;/dependency&gt;
                 </div>
 
-                <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--white);">Gradle (Kotlin DSL)</h3>
+                <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--white);">gradle (kotlin dsl)</h3>
                 <div class="code-block">
 <span class="comment">// build.gradle.kts</span>
 <span class="keyword">repositories</span> {
@@ -439,23 +429,22 @@
 }
 
 <span class="keyword">dependencies</span> {
-    implementation(<span class="string">"dev.codexbat:vesper-core:1.0.0"</span>)
+    implementation(<span class="string">"dev.codexbat:vesper-mc:1.0.0"</span>)
 }
                 </div>
             </div>
 
             <p style="color: var(--grey-400); font-size: 0.9rem; margin-top: 1rem;">
                 <i class="fas fa-lock" style="margin-right: 0.3rem; color: var(--emerald);"></i>
-                Vesper is released under a proprietary license. Redistribution and modification are subject to the terms.
+                vesper is all rights reserved. if you redistribute it or whatever, i'll be mildly annoyed. don't be a pain.
             </p>
         </main>
 
-        <!-- Footer -->
         <footer class="footer">
             <div class="footer-content">
                 <div class="legal">&copy; 2026 Codex.bat — All rights reserved.</div>
                 <div class="easter-egg">
-                    <a href="https://codexbat.dev" title="a very hidden door">.</a>
+                    <a href="https://codexbat.dev" title="a very hidden door to my real site">.</a>
                 </div>
             </div>
         </footer>
