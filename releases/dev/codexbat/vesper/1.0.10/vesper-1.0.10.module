@@ -27,11 +27,11 @@
         {
           "name": "vesper-1.0.10.jar",
           "url": "vesper-1.0.10.jar",
-          "size": 162295,
-          "sha512": "9bcf74d64b6149306acbf5c2b2ba108e8fb2bc370b4f8fa8eaf3903efb1c30ab7c04da8a7e872f114f1d993c5eeeb300edf14419f545639c5a057e5adbfcd502",
-          "sha256": "7374d1eaf6b0d04d1de421355d6b6825d1d8cfee47cf463af7039c19dc926a6d",
-          "sha1": "d859bb5e72dc3243ebc8df4eeb24d8390d89a892",
-          "md5": "73be61bea77aff4f53335170787cd1e6"
+          "size": 162293,
+          "sha512": "7a8628a567cf1ddab6b61660053f6d32410eb3408012c4b3f3f8bf8e271fa0437b6e37e22874b31f8623c7a4e5caca5a6ddc09665b91dcdd80ce84ae8e9497bf",
+          "sha256": "cc9d7d62128dcebc903914dd688d4f35fd960f941e71ccf45f0483bdfba7c49d",
+          "sha1": "e813330e4c3da430e034cc4540e9e46b9d1b87cb",
+          "md5": "e39d5afb8db58199f010748f5086967c"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "vesper-1.0.10.jar",
           "url": "vesper-1.0.10.jar",
-          "size": 162295,
-          "sha512": "9bcf74d64b6149306acbf5c2b2ba108e8fb2bc370b4f8fa8eaf3903efb1c30ab7c04da8a7e872f114f1d993c5eeeb300edf14419f545639c5a057e5adbfcd502",
-          "sha256": "7374d1eaf6b0d04d1de421355d6b6825d1d8cfee47cf463af7039c19dc926a6d",
-          "sha1": "d859bb5e72dc3243ebc8df4eeb24d8390d89a892",
-          "md5": "73be61bea77aff4f53335170787cd1e6"
+          "size": 162293,
+          "sha512": "7a8628a567cf1ddab6b61660053f6d32410eb3408012c4b3f3f8bf8e271fa0437b6e37e22874b31f8623c7a4e5caca5a6ddc09665b91dcdd80ce84ae8e9497bf",
+          "sha256": "cc9d7d62128dcebc903914dd688d4f35fd960f941e71ccf45f0483bdfba7c49d",
+          "sha1": "e813330e4c3da430e034cc4540e9e46b9d1b87cb",
+          "md5": "e39d5afb8db58199f010748f5086967c"
         }
       ]
     },
@@ -84,11 +84,11 @@
         {
           "name": "vesper-1.0.10-sources.jar",
           "url": "vesper-1.0.10-sources.jar",
-          "size": 101837,
-          "sha512": "7d65e998062dcf68addc619b023a8e58b0d976cffef56edde78d12fca1e521aecf00043754875ec614f438025cc8c20cae87d1b51221c889edb09b7ad83981a0",
-          "sha256": "edd71f1f8fe920bd36ff71cf045bccf2e5886b2af53b840ec65362d578f5dd11",
-          "sha1": "e4c5e83669428f1cd3986e675919bba4cfec8e5f",
-          "md5": "a90a44d4e8eb795fa52736ca2eca04fd"
+          "size": 101835,
+          "sha512": "01982d0820443b02d9a3bad87cd5822ba50c9e8ece9e2e0a80f7dc43fcd9da0ff616641295510702c76ea0c33e69ba475b2ab05ed828a736e0cfa978f3405dca",
+          "sha256": "dc529d1d75699718eefe7dd921ebde4fe1192d30f80b56c1cc48df108bf0006a",
+          "sha1": "2fb762c88287016fadceffa292f4f489af64f1e7",
+          "md5": "5fb2c10a9da023bdaa9cb1a9d5fedcbf"
         }
       ]
     }
