@@ -3,7 +3,7 @@
   "component": {
     "group": "dev.codexbat",
     "module": "vesper",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "vesper-1.0.10.jar",
-          "url": "vesper-1.0.10.jar",
-          "size": 162293,
-          "sha512": "7a8628a567cf1ddab6b61660053f6d32410eb3408012c4b3f3f8bf8e271fa0437b6e37e22874b31f8623c7a4e5caca5a6ddc09665b91dcdd80ce84ae8e9497bf",
-          "sha256": "cc9d7d62128dcebc903914dd688d4f35fd960f941e71ccf45f0483bdfba7c49d",
-          "sha1": "e813330e4c3da430e034cc4540e9e46b9d1b87cb",
-          "md5": "e39d5afb8db58199f010748f5086967c"
+          "name": "vesper-1.0.11.jar",
+          "url": "vesper-1.0.11.jar",
+          "size": 162292,
+          "sha512": "14274b4aabc2542aaf62e124f16c1015a00877e89c7615d02000a6d3697075dde21fd588a94872585407f03ab6d2c0f09bb0b40e2183b6798f3719123b8e9651",
+          "sha256": "e0b6bf3a8d8e1918f7d8b09b60545178290bd0f5e15641180b3c2d50dca060bd",
+          "sha1": "4a7fce67686e713c5581647cf85219fa28fb6687",
+          "md5": "aab12ba16642a5a17bae48b7e6d3b57e"
         }
       ]
     },
@@ -62,13 +62,13 @@
       ],
       "files": [
         {
-          "name": "vesper-1.0.10.jar",
-          "url": "vesper-1.0.10.jar",
-          "size": 162293,
-          "sha512": "7a8628a567cf1ddab6b61660053f6d32410eb3408012c4b3f3f8bf8e271fa0437b6e37e22874b31f8623c7a4e5caca5a6ddc09665b91dcdd80ce84ae8e9497bf",
-          "sha256": "cc9d7d62128dcebc903914dd688d4f35fd960f941e71ccf45f0483bdfba7c49d",
-          "sha1": "e813330e4c3da430e034cc4540e9e46b9d1b87cb",
-          "md5": "e39d5afb8db58199f010748f5086967c"
+          "name": "vesper-1.0.11.jar",
+          "url": "vesper-1.0.11.jar",
+          "size": 162292,
+          "sha512": "14274b4aabc2542aaf62e124f16c1015a00877e89c7615d02000a6d3697075dde21fd588a94872585407f03ab6d2c0f09bb0b40e2183b6798f3719123b8e9651",
+          "sha256": "e0b6bf3a8d8e1918f7d8b09b60545178290bd0f5e15641180b3c2d50dca060bd",
+          "sha1": "4a7fce67686e713c5581647cf85219fa28fb6687",
+          "md5": "aab12ba16642a5a17bae48b7e6d3b57e"
         }
       ]
     },
@@ -82,8 +82,8 @@
       },
       "files": [
         {
-          "name": "vesper-1.0.10-sources.jar",
-          "url": "vesper-1.0.10-sources.jar",
+          "name": "vesper-1.0.11-sources.jar",
+          "url": "vesper-1.0.11-sources.jar",
           "size": 101835,
           "sha512": "01982d0820443b02d9a3bad87cd5822ba50c9e8ece9e2e0a80f7dc43fcd9da0ff616641295510702c76ea0c33e69ba475b2ab05ed828a736e0cfa978f3405dca",
           "sha256": "dc529d1d75699718eefe7dd921ebde4fe1192d30f80b56c1cc48df108bf0006a",
