@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.codexbat",
+    "module": "vesper",
+    "version": "1.0.16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vesper-1.0.16.jar",
+          "url": "vesper-1.0.16.jar",
+          "size": 172519,
+          "sha512": "9ba4dc600f30f1a5666c4a93d49cb14d2737863d56bcb45cdec792b27cffbf8e6f96b98b1cda73fdd9108eb6e15603529e3b0bfc4931616cd247a3e926c213f2",
+          "sha256": "c3b86d6d809b13d09a39812d2976e41f89eb3684d2bc7e028b62775e595600a5",
+          "sha1": "790081797ecc884ac2c8222eb7f2985792db1504",
+          "md5": "9d9eea8da5b7b6bd069345c9fe2816d9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.141.4+1.21.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vesper-1.0.16.jar",
+          "url": "vesper-1.0.16.jar",
+          "size": 172519,
+          "sha512": "9ba4dc600f30f1a5666c4a93d49cb14d2737863d56bcb45cdec792b27cffbf8e6f96b98b1cda73fdd9108eb6e15603529e3b0bfc4931616cd247a3e926c213f2",
+          "sha256": "c3b86d6d809b13d09a39812d2976e41f89eb3684d2bc7e028b62775e595600a5",
+          "sha1": "790081797ecc884ac2c8222eb7f2985792db1504",
+          "md5": "9d9eea8da5b7b6bd069345c9fe2816d9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vesper-1.0.16-sources.jar",
+          "url": "vesper-1.0.16-sources.jar",
+          "size": 112062,
+          "sha512": "20782ec48cc5c4014b6bd6585a8fbdda70ba2cd174d19b92a897ec15b129f53f967ca8321eff09bd1c9991be586cae3fa59e8a2b208403642ca1015d99070673",
+          "sha256": "052bce584f8ed0e0c0fc83530b6a82c11e019f4874c1d96706b288722d58462c",
+          "sha1": "ca5906c9730f2efca3cfd129b6736e13c78cfba8",
+          "md5": "241bbdd4b5aff88503d3d2e6e3cfc8c2"
+        }
+      ]
+    }
+  ]
+}
